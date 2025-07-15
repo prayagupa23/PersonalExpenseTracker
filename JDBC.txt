@@ -1,0 +1,14 @@
+What is JDBC? 
+
+It stands for Java Database Connectivity. It is a standard API that allows Java Applications to interact/connect to 
+SQL Databases like MySQL and PostgreSQL. It acts as a bridge between your application(java) and the database(MySQL).
+Java Application <-- JDBC Driver --> Database (JDBC builds communication between application and database).
+
+Steps to establish JDBC Connection:
+Step 1: Import the Packages
+Step 2: Load the drivers using the forName() method 
+Step 3: Register the drivers using DriverManager 
+Step 4: Establish a connection using the Connection class object
+Step 5: Create a statement
+Step 6: Execute the query
+Step 7: Close the connections
